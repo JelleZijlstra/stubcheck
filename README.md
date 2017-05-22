@@ -6,3 +6,6 @@ Currently it's somewhat usable as follows:
 - `git clone https://github.com/JelleZijlstra/stubcheck`
 - `cd stubcheck`
 - `python3 checker.py os  # or any other module`
+
+Major limitation: it checks typeshed as bundled by your version of mypy, not a
+checked out version.
