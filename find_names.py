@@ -36,7 +36,13 @@ def handle_module(name):
         else:
             typ = 'other'
             value = type(raw_value).__name__
-        output[name] = {'type': typ, 'value': value}
+        module = inspect2.getmodule(raw_value)
+        output[name] = {
+            'type': typ,
+            'value': value,
+            'module': getattr(module, '__name__', None),
+            'name': getattr(raw_value, '__name__', None),
+        }
     return output
 
 
