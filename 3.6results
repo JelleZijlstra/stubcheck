@@ -20,38 +20,14 @@ asyncio.futures: 'Error' is in stub but is not defined at runtime
 asyncio.futures: 'isfuture' is in __all__ but not in stub
 asyncio.streams: 'ClientConnectedCallback' is in stub but is not defined at runtime
 asyncio.tasks: 'async' is in __all__ but not in stub
-_ast: 'identifier' is in stub but is not defined at runtime
-_curses: 'CursesWindow' is in stub but is not defined at runtime
-_curses: 'chtype' is in stub but is not defined at runtime
-_dummy_thread: 'error' is in __all__ but not in stub
-_dummy_thread: 'exit' is in __all__ but not in stub
-_dummy_thread: 'get_ident' is in __all__ but not in stub
-_dummy_thread: 'interrupt_main' is in __all__ but not in stub
-_dummy_thread: 'start_new_thread' is in __all__ but not in stub
 failed to import _importlib_modulespec
 _posixsubprocess: 'cloexec_pipe' is in stub but is not defined at runtime
 failed to import _subprocess
 builtins: 'WindowsError' is in stub but is not defined at runtime
 builtins: 'ellipsis' is in stub but is not defined at runtime
 builtins: 'function' is in stub but is not defined at runtime
-calendar: 'LocaleType' is in stub but is not defined at runtime
-calendar: 'calendar' is in __all__ but not in stub
-calendar: 'firstweekday' is in __all__ but not in stub
-calendar: 'month' is in __all__ but not in stub
-calendar: 'monthcalendar' is in __all__ but not in stub
-calendar: 'prcal' is in __all__ but not in stub
-calendar: 'prmonth' is in __all__ but not in stub
-calendar: 'weekheader' is in __all__ but not in stub
-configparser: 'ConverterMapping' is in __all__ but not in stub
-configparser: 'LegacyInterpolation' is in __all__ but not in stub
-configparser: 'MAX_INTERPOLATION_DEPTH' is in __all__ but not in stub
-configparser: 'SafeConfigParser' is in __all__ but not in stub
-configparser: 'SectionProxy' is in __all__ but not in stub
 csv: '__doc__' is in __all__ but not in stub
 csv: '__version__' is in __all__ but not in stub
-datetime: 'TimeTuple' is in stub but is not defined at runtime
-difflib: 'Match' is in __all__ but not in stub
-difflib: 'diff_bytes' is in __all__ but not in stub
 doctest: 'COMPARISON_FLAGS' is in __all__ but not in stub
 doctest: 'DONT_ACCEPT_BLANKLINE' is in __all__ but not in stub
 doctest: 'DONT_ACCEPT_TRUE_FOR_1' is in __all__ but not in stub
@@ -136,8 +112,6 @@ fcntl: 'LOCK_RW' is in stub but is not defined at runtime
 fcntl: 'LOCK_WRITE' is in stub but is not defined at runtime
 fileinput: 'filelineno' is in __all__ but not in stub
 fileinput: 'fileno' is in __all__ but not in stub
-functools: 'CacheInfo' is in stub but is not defined at runtime
-functools: 'partialmethod' is in __all__ but not in stub
 hashlib: 'scrypt' is in stub but is not defined at runtime
 inspect: 'ModuleInfo' is in stub but is not defined at runtime
 inspect: 'getmoduleinfo' is in stub but is not defined at runtime
@@ -299,8 +273,6 @@ weakref: 'getweakrefcount' is in __all__ but not in stub
 weakref: 'getweakrefs' is in __all__ but not in stub
 collections: 'MutableString' is in stub but is not defined at runtime
 collections.abc: 'Callable' is in __all__ but not in stub
-curses: 'CursesWindow' is in stub but is not defined at runtime
-curses: 'chtype' is in stub but is not defined at runtime
 email: 'base64mime' is in __all__ but not in stub
 email: 'charset' is in __all__ but not in stub
 email: 'encoders' is in __all__ but not in stub
@@ -442,6 +414,14 @@ __future__: 'barry_as_FLUFL' is in __all__ but not in stub
 _codecs: 'charbuffer_encode' is in stub but is not defined at runtime
 _heapq: 'nlargest' is in stub but is not defined at runtime
 _heapq: 'nsmallest' is in stub but is not defined at runtime
+calendar: 'LocaleType' is in stub but is not defined at runtime
+calendar: 'calendar' is in __all__ but not in stub
+calendar: 'firstweekday' is in __all__ but not in stub
+calendar: 'month' is in __all__ but not in stub
+calendar: 'monthcalendar' is in __all__ but not in stub
+calendar: 'prcal' is in __all__ but not in stub
+calendar: 'prmonth' is in __all__ but not in stub
+calendar: 'weekheader' is in __all__ but not in stub
 cgi: 'print_arguments' is in __all__ but not in stub
 cgi: 'print_exception' is in __all__ but not in stub
 codecs: 'BOM32_BE' is in __all__ but not in stub
@@ -452,6 +432,8 @@ codecs: 'namereplace_errors' is in __all__ but not in stub
 contextlib: 'ContextManager' is in stub but is not defined at runtime
 contextlib: 'GeneratorContextManager' is in stub but is not defined at runtime
 copy: 'PyStringMap' is in stub but is not defined at runtime
+difflib: 'Match' is in __all__ but not in stub
+difflib: 'diff_bytes' is in __all__ but not in stub
 errno: 'EADV' is in stub but is not defined at runtime
 errno: 'EBADE' is in stub but is not defined at runtime
 errno: 'EBADFD' is in stub but is not defined at runtime
@@ -688,11 +670,7 @@ termios: 'VSWTC' is in stub but is not defined at runtime
 termios: 'VSWTCH' is in stub but is not defined at runtime
 termios: 'XCASE' is in stub but is not defined at runtime
 termios: 'XTABS' is in stub but is not defined at runtime
-threading: 'ThreadError' is in __all__ but not in stub
 webbrowser: 'WindowsDefault' is in stub but is not defined at runtime
-zipfile: 'error' is in __all__ but not in stub
-zlib: 'Compress' is in stub but is not defined at runtime
-zlib: 'Decompress' is in stub but is not defined at runtime
 distutils.sysconfig: 'set_python_build' is in stub but is not defined at runtime
 distutils.command: 'bdist' is in __all__ but not in stub
 distutils.command: 'bdist_dumb' is in __all__ but not in stub
@@ -722,11 +700,6 @@ lib2to3.pgen2.tokenize: 'open' is in stub but is not defined at runtime
 lib2to3.pgen2.tokenize: 'BACKQUOTE' is in __all__ but not in stub
 lib2to3.pgen2.tokenize: 'generate_tokens' is in __all__ but not in stub
 logging: 'BufferingFormatter' is in __all__ but not in stub
-logging: 'FATAL' is in __all__ but not in stub
-logging: 'fatal' is in __all__ but not in stub
-logging: 'raiseExceptions' is in __all__ but not in stub
-logging.config: 'RawConfigParser' is in stub but is not defined at runtime
-logging.handlers: 'SocketKind' is in stub but is not defined at runtime
 xml: 'dom' is in __all__ but not in stub
 xml: 'etree' is in __all__ but not in stub
 xml: 'parsers' is in __all__ but not in stub
