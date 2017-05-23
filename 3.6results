@@ -1,8 +1,5 @@
 selectors: 'DevpollSelector' is in stub but is not defined at runtime
 selectors: 'EpollSelector' is in stub but is not defined at runtime
-selectors: 'EventMask' is in stub but is not defined at runtime
-selectors: 'FileDescriptor' is in stub but is not defined at runtime
-selectors: 'FileObject' is in stub but is not defined at runtime
 selectors: 'PollSelector' is in stub but is not defined at runtime
 asyncio: 'AbstractChildWatcher' is in __all__ but not in stub
 asyncio: 'BaseEventLoop' is in __all__ but not in stub
@@ -288,69 +285,6 @@ tempfile: 'TMP_MAX' is in __all__ but not in stub
 time: 'CLOCK_HIGHRES' is in stub but is not defined at runtime
 time: 'TimeTuple' is in stub but is not defined at runtime
 time: 'accept2dyear' is in stub but is not defined at runtime
-tokenize: 'AMPER' is in __all__ but not in stub
-tokenize: 'AMPEREQUAL' is in __all__ but not in stub
-tokenize: 'ASYNC' is in __all__ but not in stub
-tokenize: 'AT' is in __all__ but not in stub
-tokenize: 'ATEQUAL' is in __all__ but not in stub
-tokenize: 'AWAIT' is in __all__ but not in stub
-tokenize: 'CIRCUMFLEX' is in __all__ but not in stub
-tokenize: 'CIRCUMFLEXEQUAL' is in __all__ but not in stub
-tokenize: 'COLON' is in __all__ but not in stub
-tokenize: 'COMMA' is in __all__ but not in stub
-tokenize: 'DEDENT' is in __all__ but not in stub
-tokenize: 'DOT' is in __all__ but not in stub
-tokenize: 'DOUBLESLASH' is in __all__ but not in stub
-tokenize: 'DOUBLESLASHEQUAL' is in __all__ but not in stub
-tokenize: 'DOUBLESTAR' is in __all__ but not in stub
-tokenize: 'DOUBLESTAREQUAL' is in __all__ but not in stub
-tokenize: 'ELLIPSIS' is in __all__ but not in stub
-tokenize: 'ENDMARKER' is in __all__ but not in stub
-tokenize: 'EQEQUAL' is in __all__ but not in stub
-tokenize: 'EQUAL' is in __all__ but not in stub
-tokenize: 'ERRORTOKEN' is in __all__ but not in stub
-tokenize: 'GREATER' is in __all__ but not in stub
-tokenize: 'GREATEREQUAL' is in __all__ but not in stub
-tokenize: 'INDENT' is in __all__ but not in stub
-tokenize: 'ISEOF' is in __all__ but not in stub
-tokenize: 'ISNONTERMINAL' is in __all__ but not in stub
-tokenize: 'ISTERMINAL' is in __all__ but not in stub
-tokenize: 'LBRACE' is in __all__ but not in stub
-tokenize: 'LEFTSHIFT' is in __all__ but not in stub
-tokenize: 'LEFTSHIFTEQUAL' is in __all__ but not in stub
-tokenize: 'LESS' is in __all__ but not in stub
-tokenize: 'LESSEQUAL' is in __all__ but not in stub
-tokenize: 'LPAR' is in __all__ but not in stub
-tokenize: 'LSQB' is in __all__ but not in stub
-tokenize: 'MINEQUAL' is in __all__ but not in stub
-tokenize: 'MINUS' is in __all__ but not in stub
-tokenize: 'NAME' is in __all__ but not in stub
-tokenize: 'NEWLINE' is in __all__ but not in stub
-tokenize: 'NOTEQUAL' is in __all__ but not in stub
-tokenize: 'NT_OFFSET' is in __all__ but not in stub
-tokenize: 'NUMBER' is in __all__ but not in stub
-tokenize: 'N_TOKENS' is in __all__ but not in stub
-tokenize: 'OP' is in __all__ but not in stub
-tokenize: 'PERCENT' is in __all__ but not in stub
-tokenize: 'PERCENTEQUAL' is in __all__ but not in stub
-tokenize: 'PLUS' is in __all__ but not in stub
-tokenize: 'PLUSEQUAL' is in __all__ but not in stub
-tokenize: 'RARROW' is in __all__ but not in stub
-tokenize: 'RBRACE' is in __all__ but not in stub
-tokenize: 'RIGHTSHIFT' is in __all__ but not in stub
-tokenize: 'RIGHTSHIFTEQUAL' is in __all__ but not in stub
-tokenize: 'RPAR' is in __all__ but not in stub
-tokenize: 'RSQB' is in __all__ but not in stub
-tokenize: 'SEMI' is in __all__ but not in stub
-tokenize: 'SLASH' is in __all__ but not in stub
-tokenize: 'SLASHEQUAL' is in __all__ but not in stub
-tokenize: 'STAR' is in __all__ but not in stub
-tokenize: 'STAREQUAL' is in __all__ but not in stub
-tokenize: 'STRING' is in __all__ but not in stub
-tokenize: 'TILDE' is in __all__ but not in stub
-tokenize: 'VBAR' is in __all__ but not in stub
-tokenize: 'VBAREQUAL' is in __all__ but not in stub
-tokenize: 'tok_name' is in __all__ but not in stub
 types: 'AsyncGeneratorType' is in __all__ but not in stub
 typing: 'AwaitableGenerator' is in stub but is not defined at runtime
 typing: 'TypeAlias' is in stub but is not defined at runtime
@@ -365,6 +299,8 @@ weakref: 'getweakrefcount' is in __all__ but not in stub
 weakref: 'getweakrefs' is in __all__ but not in stub
 collections: 'MutableString' is in stub but is not defined at runtime
 collections.abc: 'Callable' is in __all__ but not in stub
+curses: 'CursesWindow' is in stub but is not defined at runtime
+curses: 'chtype' is in stub but is not defined at runtime
 email: 'base64mime' is in __all__ but not in stub
 email: 'charset' is in __all__ but not in stub
 email: 'encoders' is in __all__ but not in stub
@@ -427,7 +363,6 @@ os: 'O_SEQUENTIAL' is in stub but is not defined at runtime
 os: 'O_SHORT_LIVED' is in stub but is not defined at runtime
 os: 'O_TEMPORARY' is in stub but is not defined at runtime
 os: 'O_TEXT' is in stub but is not defined at runtime
-os: '_TextIOWrapper' is in stub but is not defined at runtime
 os: 'fdatasync' is in stub but is not defined at runtime
 os: 'getresgid' is in stub but is not defined at runtime
 os: 'getresuid' is in stub but is not defined at runtime
@@ -488,6 +423,7 @@ os: 'uname_result' is in __all__ but not in stub
 os: 'writev' is in __all__ but not in stub
 os.path: 'splitunc' is in stub but is not defined at runtime
 os.path: 'samestat' is in __all__ but not in stub
+sqlite3: 'register_adapters_and_converters' is in stub but is not defined at runtime
 sqlite3.dbapi2: 'register_adapters_and_converters' is in stub but is not defined at runtime
 failed to import tkinter
 failed to import tkinter.constants
@@ -554,7 +490,6 @@ errno: 'ESTRPIPE' is in stub but is not defined at runtime
 errno: 'EUCLEAN' is in stub but is not defined at runtime
 errno: 'EUNATCH' is in stub but is not defined at runtime
 errno: 'EXFULL' is in stub but is not defined at runtime
-locale: '_str' is in stub but is not defined at runtime
 optparse: 'isbasestring' is in stub but is not defined at runtime
 pdb: 'Pdb' is in __all__ but not in stub
 pdb: 'help' is in __all__ but not in stub
@@ -780,74 +715,12 @@ distutils.command: 'sdist' is in __all__ but not in stub
 distutils.command: 'upload' is in __all__ but not in stub
 failed to import distutils.command.bdist_msi
 failed to import distutils.command.bdist_packager
+lib2to3.pgen2.tokenize: 'ELLIPSIS' is in stub but is not defined at runtime
 lib2to3.pgen2.tokenize: 'ENCODING' is in stub but is not defined at runtime
 lib2to3.pgen2.tokenize: 'TokenInfo' is in stub but is not defined at runtime
-lib2to3.pgen2.tokenize: '_builtin_open' is in stub but is not defined at runtime
 lib2to3.pgen2.tokenize: 'open' is in stub but is not defined at runtime
-lib2to3.pgen2.tokenize: 'AMPER' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'AMPEREQUAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'ASYNC' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'AT' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'ATEQUAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'AWAIT' is in __all__ but not in stub
 lib2to3.pgen2.tokenize: 'BACKQUOTE' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'CIRCUMFLEX' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'CIRCUMFLEXEQUAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'COLON' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'COMMA' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'DEDENT' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'DOT' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'DOUBLESLASH' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'DOUBLESLASHEQUAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'DOUBLESTAR' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'DOUBLESTAREQUAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'ENDMARKER' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'EQEQUAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'EQUAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'ERRORTOKEN' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'GREATER' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'GREATEREQUAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'INDENT' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'ISEOF' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'ISNONTERMINAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'ISTERMINAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'LBRACE' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'LEFTSHIFT' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'LEFTSHIFTEQUAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'LESS' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'LESSEQUAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'LPAR' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'LSQB' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'MINEQUAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'MINUS' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'NAME' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'NEWLINE' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'NOTEQUAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'NT_OFFSET' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'NUMBER' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'N_TOKENS' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'OP' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'PERCENT' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'PERCENTEQUAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'PLUS' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'PLUSEQUAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'RARROW' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'RBRACE' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'RIGHTSHIFT' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'RIGHTSHIFTEQUAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'RPAR' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'RSQB' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'SEMI' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'SLASH' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'SLASHEQUAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'STAR' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'STAREQUAL' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'STRING' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'TILDE' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'VBAR' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'VBAREQUAL' is in __all__ but not in stub
 lib2to3.pgen2.tokenize: 'generate_tokens' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'tok_name' is in __all__ but not in stub
 logging: 'BufferingFormatter' is in __all__ but not in stub
 logging: 'FATAL' is in __all__ but not in stub
 logging: 'fatal' is in __all__ but not in stub
