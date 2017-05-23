@@ -4,6 +4,7 @@ from pathlib import Path
 import subprocess
 import sys
 import typeshed_client
+from typed_ast import ast3
 from typing import Any, Dict, Iterator, NamedTuple, Tuple
 
 RuntimeDict = Dict[str, Any]
@@ -47,6 +48,17 @@ def check_only_in_stub(runtime: RuntimeDict, stub: typeshed_client.NameDict,
             continue
         if not info.is_exported:
             continue
+
+        # As a special case, ignore names where the stub has an int, but it does not exist at
+        # runtime. This happens frequently for system constants that only exist on some OSs (e.g.,
+        # in the errno module). It is difficult to write fully accurate stubs, because we can only
+        # check sys.platform, and it doesn't seem especially valuable anyway.
+        if isinstance(info.ast, ast3.Assign) and info.ast.type_comment == 'int':
+            continue
+        if (isinstance(info.ast, ast3.AnnAssign) and isinstance(info.ast.annotation, ast3.Name) and
+                info.ast.annotation.id == 'int'):
+            continue
+
         yield Error(module_name, f'{name!r} is in stub but is not defined at runtime')
 
 
