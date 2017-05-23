@@ -693,12 +693,6 @@ distutils.command: 'sdist' is in __all__ but not in stub
 distutils.command: 'upload' is in __all__ but not in stub
 failed to import distutils.command.bdist_msi
 failed to import distutils.command.bdist_packager
-lib2to3.pgen2.tokenize: 'ELLIPSIS' is in stub but is not defined at runtime
-lib2to3.pgen2.tokenize: 'ENCODING' is in stub but is not defined at runtime
-lib2to3.pgen2.tokenize: 'TokenInfo' is in stub but is not defined at runtime
-lib2to3.pgen2.tokenize: 'open' is in stub but is not defined at runtime
-lib2to3.pgen2.tokenize: 'BACKQUOTE' is in __all__ but not in stub
-lib2to3.pgen2.tokenize: 'generate_tokens' is in __all__ but not in stub
 logging: 'BufferingFormatter' is in __all__ but not in stub
 xml: 'dom' is in __all__ but not in stub
 xml: 'etree' is in __all__ but not in stub
