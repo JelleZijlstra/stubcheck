@@ -60,56 +60,6 @@ doctest: 'script_from_examples' is in __all__ but not in stub
 doctest: 'set_unittest_reportflags' is in __all__ but not in stub
 doctest: 'testfile' is in __all__ but not in stub
 doctest: 'testsource' is in __all__ but not in stub
-fcntl: 'DN_ACCESS' is in stub but is not defined at runtime
-fcntl: 'DN_ATTRIB' is in stub but is not defined at runtime
-fcntl: 'DN_CREATE' is in stub but is not defined at runtime
-fcntl: 'DN_DELETE' is in stub but is not defined at runtime
-fcntl: 'DN_MODIFY' is in stub but is not defined at runtime
-fcntl: 'DN_MULTISHOT' is in stub but is not defined at runtime
-fcntl: 'DN_RENAME' is in stub but is not defined at runtime
-fcntl: 'F_EXLCK' is in stub but is not defined at runtime
-fcntl: 'F_GETLEASE' is in stub but is not defined at runtime
-fcntl: 'F_GETLK64' is in stub but is not defined at runtime
-fcntl: 'F_GETSIG' is in stub but is not defined at runtime
-fcntl: 'F_NOTIFY' is in stub but is not defined at runtime
-fcntl: 'F_SETLEASE' is in stub but is not defined at runtime
-fcntl: 'F_SETLK64' is in stub but is not defined at runtime
-fcntl: 'F_SETLKW64' is in stub but is not defined at runtime
-fcntl: 'F_SETSIG' is in stub but is not defined at runtime
-fcntl: 'F_SHLCK' is in stub but is not defined at runtime
-fcntl: 'I_ATMARK' is in stub but is not defined at runtime
-fcntl: 'I_CANPUT' is in stub but is not defined at runtime
-fcntl: 'I_CKBAND' is in stub but is not defined at runtime
-fcntl: 'I_FDINSERT' is in stub but is not defined at runtime
-fcntl: 'I_FIND' is in stub but is not defined at runtime
-fcntl: 'I_FLUSH' is in stub but is not defined at runtime
-fcntl: 'I_FLUSHBAND' is in stub but is not defined at runtime
-fcntl: 'I_GETBAND' is in stub but is not defined at runtime
-fcntl: 'I_GETCLTIME' is in stub but is not defined at runtime
-fcntl: 'I_GETSIG' is in stub but is not defined at runtime
-fcntl: 'I_GRDOPT' is in stub but is not defined at runtime
-fcntl: 'I_GWROPT' is in stub but is not defined at runtime
-fcntl: 'I_LINK' is in stub but is not defined at runtime
-fcntl: 'I_LIST' is in stub but is not defined at runtime
-fcntl: 'I_LOOK' is in stub but is not defined at runtime
-fcntl: 'I_NREAD' is in stub but is not defined at runtime
-fcntl: 'I_PEEK' is in stub but is not defined at runtime
-fcntl: 'I_PLINK' is in stub but is not defined at runtime
-fcntl: 'I_POP' is in stub but is not defined at runtime
-fcntl: 'I_PUNLINK' is in stub but is not defined at runtime
-fcntl: 'I_PUSH' is in stub but is not defined at runtime
-fcntl: 'I_RECVFD' is in stub but is not defined at runtime
-fcntl: 'I_SENDFD' is in stub but is not defined at runtime
-fcntl: 'I_SETCLTIME' is in stub but is not defined at runtime
-fcntl: 'I_SETSIG' is in stub but is not defined at runtime
-fcntl: 'I_SRDOPT' is in stub but is not defined at runtime
-fcntl: 'I_STR' is in stub but is not defined at runtime
-fcntl: 'I_SWROPT' is in stub but is not defined at runtime
-fcntl: 'I_UNLINK' is in stub but is not defined at runtime
-fcntl: 'LOCK_MAND' is in stub but is not defined at runtime
-fcntl: 'LOCK_READ' is in stub but is not defined at runtime
-fcntl: 'LOCK_RW' is in stub but is not defined at runtime
-fcntl: 'LOCK_WRITE' is in stub but is not defined at runtime
 fileinput: 'filelineno' is in __all__ but not in stub
 fileinput: 'fileno' is in __all__ but not in stub
 hashlib: 'scrypt' is in stub but is not defined at runtime
@@ -216,13 +166,6 @@ posixpath: 'samestat' is in __all__ but not in stub
 posixpath: 'sep' is in __all__ but not in stub
 random: 'choices' is in __all__ but not in stub
 re: 'template' is in __all__ but not in stub
-resource: 'RLIMIT_MSGQUEUE' is in stub but is not defined at runtime
-resource: 'RLIMIT_NICE' is in stub but is not defined at runtime
-resource: 'RLIMIT_OFILE' is in stub but is not defined at runtime
-resource: 'RLIMIT_RTPRIO' is in stub but is not defined at runtime
-resource: 'RLIMIT_RTTIME' is in stub but is not defined at runtime
-resource: 'RLIMIT_SIGPENDING' is in stub but is not defined at runtime
-resource: 'RUSAGE_THREAD' is in stub but is not defined at runtime
 select: 'POLLERR' is in stub but is not defined at runtime
 select: 'POLLHUP' is in stub but is not defined at runtime
 select: 'POLLIN' is in stub but is not defined at runtime
@@ -244,7 +187,6 @@ signal: 'sigwaitinfo' is in stub but is not defined at runtime
 signal: 'struct_siginfo' is in stub but is not defined at runtime
 socketserver: 'ThreadingUnixDatagramServer' is in __all__ but not in stub
 socketserver: 'ThreadingUnixStreamServer' is in __all__ but not in stub
-ssl: 'PROTOCOL_SSLv2' is in stub but is not defined at runtime
 sys: 'gettotalrefcount' is in stub but is not defined at runtime
 sys: 'getwindowsversion' is in stub but is not defined at runtime
 sys: 'last_traceback' is in stub but is not defined at runtime
@@ -434,44 +376,6 @@ contextlib: 'GeneratorContextManager' is in stub but is not defined at runtime
 copy: 'PyStringMap' is in stub but is not defined at runtime
 difflib: 'Match' is in __all__ but not in stub
 difflib: 'diff_bytes' is in __all__ but not in stub
-errno: 'EADV' is in stub but is not defined at runtime
-errno: 'EBADE' is in stub but is not defined at runtime
-errno: 'EBADFD' is in stub but is not defined at runtime
-errno: 'EBADR' is in stub but is not defined at runtime
-errno: 'EBADRQC' is in stub but is not defined at runtime
-errno: 'EBADSLT' is in stub but is not defined at runtime
-errno: 'EBFONT' is in stub but is not defined at runtime
-errno: 'ECHRNG' is in stub but is not defined at runtime
-errno: 'ECOMM' is in stub but is not defined at runtime
-errno: 'EDEADLCK' is in stub but is not defined at runtime
-errno: 'EDEADLOCK' is in stub but is not defined at runtime
-errno: 'EDOTDOT' is in stub but is not defined at runtime
-errno: 'EISNAM' is in stub but is not defined at runtime
-errno: 'EL2HLT' is in stub but is not defined at runtime
-errno: 'EL2NSYNC' is in stub but is not defined at runtime
-errno: 'EL3HLT' is in stub but is not defined at runtime
-errno: 'EL3RST' is in stub but is not defined at runtime
-errno: 'ELIBACC' is in stub but is not defined at runtime
-errno: 'ELIBBAD' is in stub but is not defined at runtime
-errno: 'ELIBEXEC' is in stub but is not defined at runtime
-errno: 'ELIBMAX' is in stub but is not defined at runtime
-errno: 'ELIBSCN' is in stub but is not defined at runtime
-errno: 'ELNRNG' is in stub but is not defined at runtime
-errno: 'ENAVAIL' is in stub but is not defined at runtime
-errno: 'ENOANO' is in stub but is not defined at runtime
-errno: 'ENOCSI' is in stub but is not defined at runtime
-errno: 'ENONET' is in stub but is not defined at runtime
-errno: 'ENOPKG' is in stub but is not defined at runtime
-errno: 'ENOTNAM' is in stub but is not defined at runtime
-errno: 'ENOTUNIQ' is in stub but is not defined at runtime
-errno: 'EREMCHG' is in stub but is not defined at runtime
-errno: 'EREMOTEIO' is in stub but is not defined at runtime
-errno: 'ERESTART' is in stub but is not defined at runtime
-errno: 'ESRMNT' is in stub but is not defined at runtime
-errno: 'ESTRPIPE' is in stub but is not defined at runtime
-errno: 'EUCLEAN' is in stub but is not defined at runtime
-errno: 'EUNATCH' is in stub but is not defined at runtime
-errno: 'EXFULL' is in stub but is not defined at runtime
 optparse: 'isbasestring' is in stub but is not defined at runtime
 pdb: 'Pdb' is in __all__ but not in stub
 pdb: 'help' is in __all__ but not in stub
@@ -611,65 +515,6 @@ socket: 'if_nametoindex' is in __all__ but not in stub
 socket: 'sethostname' is in __all__ but not in stub
 failed to import spwd
 symtable: 'symtable' is in __all__ but not in stub
-termios: 'B1000000' is in stub but is not defined at runtime
-termios: 'B1152000' is in stub but is not defined at runtime
-termios: 'B1500000' is in stub but is not defined at runtime
-termios: 'B2000000' is in stub but is not defined at runtime
-termios: 'B2500000' is in stub but is not defined at runtime
-termios: 'B3000000' is in stub but is not defined at runtime
-termios: 'B3500000' is in stub but is not defined at runtime
-termios: 'B4000000' is in stub but is not defined at runtime
-termios: 'B460800' is in stub but is not defined at runtime
-termios: 'B500000' is in stub but is not defined at runtime
-termios: 'B576000' is in stub but is not defined at runtime
-termios: 'B921600' is in stub but is not defined at runtime
-termios: 'CBAUD' is in stub but is not defined at runtime
-termios: 'CBAUDEX' is in stub but is not defined at runtime
-termios: 'CIBAUD' is in stub but is not defined at runtime
-termios: 'IOCSIZE_MASK' is in stub but is not defined at runtime
-termios: 'IOCSIZE_SHIFT' is in stub but is not defined at runtime
-termios: 'IUCLC' is in stub but is not defined at runtime
-termios: 'NCC' is in stub but is not defined at runtime
-termios: 'N_MOUSE' is in stub but is not defined at runtime
-termios: 'N_PPP' is in stub but is not defined at runtime
-termios: 'N_SLIP' is in stub but is not defined at runtime
-termios: 'N_STRIP' is in stub but is not defined at runtime
-termios: 'N_TTY' is in stub but is not defined at runtime
-termios: 'OLCUC' is in stub but is not defined at runtime
-termios: 'TCFLSH' is in stub but is not defined at runtime
-termios: 'TCGETA' is in stub but is not defined at runtime
-termios: 'TCGETS' is in stub but is not defined at runtime
-termios: 'TCSBRK' is in stub but is not defined at runtime
-termios: 'TCSBRKP' is in stub but is not defined at runtime
-termios: 'TCSETA' is in stub but is not defined at runtime
-termios: 'TCSETAF' is in stub but is not defined at runtime
-termios: 'TCSETAW' is in stub but is not defined at runtime
-termios: 'TCSETS' is in stub but is not defined at runtime
-termios: 'TCSETSF' is in stub but is not defined at runtime
-termios: 'TCSETSW' is in stub but is not defined at runtime
-termios: 'TCXONC' is in stub but is not defined at runtime
-termios: 'TIOCGICOUNT' is in stub but is not defined at runtime
-termios: 'TIOCGLCKTRMIOS' is in stub but is not defined at runtime
-termios: 'TIOCGSERIAL' is in stub but is not defined at runtime
-termios: 'TIOCGSOFTCAR' is in stub but is not defined at runtime
-termios: 'TIOCINQ' is in stub but is not defined at runtime
-termios: 'TIOCLINUX' is in stub but is not defined at runtime
-termios: 'TIOCMIWAIT' is in stub but is not defined at runtime
-termios: 'TIOCSERCONFIG' is in stub but is not defined at runtime
-termios: 'TIOCSERGETLSR' is in stub but is not defined at runtime
-termios: 'TIOCSERGETMULTI' is in stub but is not defined at runtime
-termios: 'TIOCSERGSTRUCT' is in stub but is not defined at runtime
-termios: 'TIOCSERGWILD' is in stub but is not defined at runtime
-termios: 'TIOCSERSETMULTI' is in stub but is not defined at runtime
-termios: 'TIOCSERSWILD' is in stub but is not defined at runtime
-termios: 'TIOCSER_TEMT' is in stub but is not defined at runtime
-termios: 'TIOCSLCKTRMIOS' is in stub but is not defined at runtime
-termios: 'TIOCSSERIAL' is in stub but is not defined at runtime
-termios: 'TIOCSSOFTCAR' is in stub but is not defined at runtime
-termios: 'VSWTC' is in stub but is not defined at runtime
-termios: 'VSWTCH' is in stub but is not defined at runtime
-termios: 'XCASE' is in stub but is not defined at runtime
-termios: 'XTABS' is in stub but is not defined at runtime
 webbrowser: 'WindowsDefault' is in stub but is not defined at runtime
 distutils.sysconfig: 'set_python_build' is in stub but is not defined at runtime
 distutils.command: 'bdist' is in __all__ but not in stub
