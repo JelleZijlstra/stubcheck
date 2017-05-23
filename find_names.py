@@ -10,8 +10,15 @@ def get_fully_qualified_name(obj):
     return '{}.{}'.format(obj.__module__, obj.__name__)
 
 
-def handle_module(name):
+def import_module(name):
     mod = __import__(name)
+    for part in name.split('.')[1:]:
+        mod = getattr(mod, part)
+    return mod
+
+
+def handle_module(name):
+    mod = import_module(name)
     output = {}
     for name in dir(mod):
         raw_value = getattr(mod, name)
