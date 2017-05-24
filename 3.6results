@@ -5,21 +5,6 @@ asyncio: 'AbstractChildWatcher' is in __all__ but not in stub
 asyncio: 'BaseEventLoop' is in __all__ but not in stub
 asyncio: 'FastChildWatcher' is in __all__ but not in stub
 asyncio: 'SafeChildWatcher' is in __all__ but not in stub
-asyncio: 'TimerHandle' is in __all__ but not in stub
-asyncio: '_get_running_loop' is in __all__ but not in stub
-asyncio: '_set_running_loop' is in __all__ but not in stub
-asyncio: 'isfuture' is in __all__ but not in stub
-asyncio.events: 'AF_UNSPEC' is in stub but is not defined at runtime
-asyncio.events: 'AI_PASSIVE' is in stub but is not defined at runtime
-asyncio.events: 'PIPE' is in stub but is not defined at runtime
-asyncio.events: 'TimerHandle' is in __all__ but not in stub
-asyncio.events: '_get_running_loop' is in __all__ but not in stub
-asyncio.events: '_set_running_loop' is in __all__ but not in stub
-asyncio.futures: 'ConcurrentFuture' is in stub but is not defined at runtime
-asyncio.futures: 'Error' is in stub but is not defined at runtime
-asyncio.futures: 'isfuture' is in __all__ but not in stub
-asyncio.streams: 'ClientConnectedCallback' is in stub but is not defined at runtime
-asyncio.tasks: 'async' is in __all__ but not in stub
 failed to import _importlib_modulespec
 _posixsubprocess: 'cloexec_pipe' is in stub but is not defined at runtime
 failed to import _subprocess
@@ -28,43 +13,7 @@ builtins: 'ellipsis' is in stub but is not defined at runtime
 builtins: 'function' is in stub but is not defined at runtime
 csv: '__doc__' is in __all__ but not in stub
 csv: '__version__' is in __all__ but not in stub
-doctest: 'COMPARISON_FLAGS' is in __all__ but not in stub
-doctest: 'DONT_ACCEPT_BLANKLINE' is in __all__ but not in stub
-doctest: 'DONT_ACCEPT_TRUE_FOR_1' is in __all__ but not in stub
-doctest: 'DebugRunner' is in __all__ but not in stub
-doctest: 'DocFileSuite' is in __all__ but not in stub
-doctest: 'DocTest' is in __all__ but not in stub
-doctest: 'DocTestFailure' is in __all__ but not in stub
-doctest: 'DocTestFinder' is in __all__ but not in stub
-doctest: 'DocTestParser' is in __all__ but not in stub
-doctest: 'DocTestRunner' is in __all__ but not in stub
-doctest: 'DocTestSuite' is in __all__ but not in stub
-doctest: 'ELLIPSIS' is in __all__ but not in stub
-doctest: 'Example' is in __all__ but not in stub
-doctest: 'FAIL_FAST' is in __all__ but not in stub
-doctest: 'IGNORE_EXCEPTION_DETAIL' is in __all__ but not in stub
-doctest: 'NORMALIZE_WHITESPACE' is in __all__ but not in stub
-doctest: 'OutputChecker' is in __all__ but not in stub
-doctest: 'REPORTING_FLAGS' is in __all__ but not in stub
-doctest: 'REPORT_CDIFF' is in __all__ but not in stub
-doctest: 'REPORT_NDIFF' is in __all__ but not in stub
-doctest: 'REPORT_ONLY_FIRST_FAILURE' is in __all__ but not in stub
-doctest: 'REPORT_UDIFF' is in __all__ but not in stub
-doctest: 'SKIP' is in __all__ but not in stub
-doctest: 'UnexpectedException' is in __all__ but not in stub
-doctest: 'debug' is in __all__ but not in stub
-doctest: 'debug_src' is in __all__ but not in stub
-doctest: 'register_optionflag' is in __all__ but not in stub
-doctest: 'run_docstring_examples' is in __all__ but not in stub
-doctest: 'script_from_examples' is in __all__ but not in stub
-doctest: 'set_unittest_reportflags' is in __all__ but not in stub
-doctest: 'testfile' is in __all__ but not in stub
-doctest: 'testsource' is in __all__ but not in stub
-fileinput: 'filelineno' is in __all__ but not in stub
-fileinput: 'fileno' is in __all__ but not in stub
 hashlib: 'scrypt' is in stub but is not defined at runtime
-inspect: 'ModuleInfo' is in stub but is not defined at runtime
-inspect: 'getmoduleinfo' is in stub but is not defined at runtime
 linecache: 'checkcache' is in __all__ but not in stub
 macpath: 'relpath' is in stub but is not defined at runtime
 macpath: 'altsep' is in __all__ but not in stub
@@ -87,73 +36,6 @@ ntpath: 'pathsep' is in __all__ but not in stub
 ntpath: 'samestat' is in __all__ but not in stub
 ntpath: 'sep' is in __all__ but not in stub
 ntpath: 'splitunc' is in __all__ but not in stub
-pickle: 'ADDITEMS' is in __all__ but not in stub
-pickle: 'APPEND' is in __all__ but not in stub
-pickle: 'APPENDS' is in __all__ but not in stub
-pickle: 'BINBYTES' is in __all__ but not in stub
-pickle: 'BINBYTES8' is in __all__ but not in stub
-pickle: 'BINFLOAT' is in __all__ but not in stub
-pickle: 'BINGET' is in __all__ but not in stub
-pickle: 'BININT' is in __all__ but not in stub
-pickle: 'BININT1' is in __all__ but not in stub
-pickle: 'BININT2' is in __all__ but not in stub
-pickle: 'BINPERSID' is in __all__ but not in stub
-pickle: 'BINPUT' is in __all__ but not in stub
-pickle: 'BINSTRING' is in __all__ but not in stub
-pickle: 'BINUNICODE' is in __all__ but not in stub
-pickle: 'BINUNICODE8' is in __all__ but not in stub
-pickle: 'BUILD' is in __all__ but not in stub
-pickle: 'DICT' is in __all__ but not in stub
-pickle: 'DUP' is in __all__ but not in stub
-pickle: 'EMPTY_DICT' is in __all__ but not in stub
-pickle: 'EMPTY_LIST' is in __all__ but not in stub
-pickle: 'EMPTY_SET' is in __all__ but not in stub
-pickle: 'EMPTY_TUPLE' is in __all__ but not in stub
-pickle: 'EXT1' is in __all__ but not in stub
-pickle: 'EXT2' is in __all__ but not in stub
-pickle: 'EXT4' is in __all__ but not in stub
-pickle: 'FALSE' is in __all__ but not in stub
-pickle: 'FLOAT' is in __all__ but not in stub
-pickle: 'FRAME' is in __all__ but not in stub
-pickle: 'FROZENSET' is in __all__ but not in stub
-pickle: 'GET' is in __all__ but not in stub
-pickle: 'GLOBAL' is in __all__ but not in stub
-pickle: 'INST' is in __all__ but not in stub
-pickle: 'INT' is in __all__ but not in stub
-pickle: 'LIST' is in __all__ but not in stub
-pickle: 'LONG' is in __all__ but not in stub
-pickle: 'LONG1' is in __all__ but not in stub
-pickle: 'LONG4' is in __all__ but not in stub
-pickle: 'LONG_BINGET' is in __all__ but not in stub
-pickle: 'LONG_BINPUT' is in __all__ but not in stub
-pickle: 'MARK' is in __all__ but not in stub
-pickle: 'MEMOIZE' is in __all__ but not in stub
-pickle: 'NEWFALSE' is in __all__ but not in stub
-pickle: 'NEWOBJ' is in __all__ but not in stub
-pickle: 'NEWOBJ_EX' is in __all__ but not in stub
-pickle: 'NEWTRUE' is in __all__ but not in stub
-pickle: 'NONE' is in __all__ but not in stub
-pickle: 'OBJ' is in __all__ but not in stub
-pickle: 'PERSID' is in __all__ but not in stub
-pickle: 'POP' is in __all__ but not in stub
-pickle: 'POP_MARK' is in __all__ but not in stub
-pickle: 'PROTO' is in __all__ but not in stub
-pickle: 'PUT' is in __all__ but not in stub
-pickle: 'REDUCE' is in __all__ but not in stub
-pickle: 'SETITEM' is in __all__ but not in stub
-pickle: 'SETITEMS' is in __all__ but not in stub
-pickle: 'SHORT_BINBYTES' is in __all__ but not in stub
-pickle: 'SHORT_BINSTRING' is in __all__ but not in stub
-pickle: 'SHORT_BINUNICODE' is in __all__ but not in stub
-pickle: 'STACK_GLOBAL' is in __all__ but not in stub
-pickle: 'STOP' is in __all__ but not in stub
-pickle: 'STRING' is in __all__ but not in stub
-pickle: 'TRUE' is in __all__ but not in stub
-pickle: 'TUPLE' is in __all__ but not in stub
-pickle: 'TUPLE1' is in __all__ but not in stub
-pickle: 'TUPLE2' is in __all__ but not in stub
-pickle: 'TUPLE3' is in __all__ but not in stub
-pickle: 'UNICODE' is in __all__ but not in stub
 posixpath: 'altsep' is in __all__ but not in stub
 posixpath: 'commonpath' is in __all__ but not in stub
 posixpath: 'curdir' is in __all__ but not in stub
@@ -234,8 +116,6 @@ email.headerregistry: 'ContentTransferEncoding' is in stub but is not defined at
 email.headerregistry: 'dt' is in stub but is not defined at runtime
 email.iterators: 'walk' is in __all__ but not in stub
 http.client: 'error' is in __all__ but not in stub
-importlib.machinery: 'WindowsRegisteryFinder' is in stub but is not defined at runtime
-multiprocessing: 'AsyncResult' is in stub but is not defined at runtime
 multiprocessing: 'Array' is in __all__ but not in stub
 multiprocessing: 'AuthenticationError' is in __all__ but not in stub
 multiprocessing: 'Barrier' is in __all__ but not in stub
@@ -351,8 +231,6 @@ urllib.response: 'addbase' is in __all__ but not in stub
 urllib.response: 'addclosehook' is in __all__ but not in stub
 urllib.response: 'addinfo' is in __all__ but not in stub
 failed to import wsgiref.types
-__future__: 'all_feature_names' is in __all__ but not in stub
-__future__: 'barry_as_FLUFL' is in __all__ but not in stub
 _codecs: 'charbuffer_encode' is in stub but is not defined at runtime
 _heapq: 'nlargest' is in stub but is not defined at runtime
 _heapq: 'nsmallest' is in stub but is not defined at runtime
@@ -376,6 +254,8 @@ contextlib: 'GeneratorContextManager' is in stub but is not defined at runtime
 copy: 'PyStringMap' is in stub but is not defined at runtime
 difflib: 'Match' is in __all__ but not in stub
 difflib: 'diff_bytes' is in __all__ but not in stub
+fileinput: 'filelineno' is in __all__ but not in stub
+fileinput: 'fileno' is in __all__ but not in stub
 optparse: 'isbasestring' is in stub but is not defined at runtime
 pdb: 'Pdb' is in __all__ but not in stub
 pdb: 'help' is in __all__ but not in stub
