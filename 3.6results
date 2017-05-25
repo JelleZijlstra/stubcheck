@@ -46,15 +46,6 @@ posixpath: 'pardir' is in __all__ but not in stub
 posixpath: 'pathsep' is in __all__ but not in stub
 posixpath: 'samestat' is in __all__ but not in stub
 posixpath: 'sep' is in __all__ but not in stub
-random: 'choices' is in __all__ but not in stub
-re: 'template' is in __all__ but not in stub
-select: 'POLLERR' is in stub but is not defined at runtime
-select: 'POLLHUP' is in stub but is not defined at runtime
-select: 'POLLIN' is in stub but is not defined at runtime
-select: 'POLLNVAL' is in stub but is not defined at runtime
-select: 'POLLOUT' is in stub but is not defined at runtime
-select: 'POLLPRI' is in stub but is not defined at runtime
-select: 'poll' is in stub but is not defined at runtime
 shutil: 'ExecError' is in __all__ but not in stub
 shutil: 'SpecialFileError' is in __all__ but not in stub
 signal: 'CTRL_BREAK_EVENT' is in stub but is not defined at runtime
@@ -87,14 +78,6 @@ types: 'AsyncGeneratorType' is in __all__ but not in stub
 typing: 'AwaitableGenerator' is in stub but is not defined at runtime
 typing: 'TypeAlias' is in stub but is not defined at runtime
 typing: 'no_type_check_decorator' is in __all__ but not in stub
-weakref: 'CallableProxyType' is in __all__ but not in stub
-weakref: 'ProxyType' is in __all__ but not in stub
-weakref: 'ProxyTypes' is in __all__ but not in stub
-weakref: 'WeakMethod' is in __all__ but not in stub
-weakref: 'WeakSet' is in __all__ but not in stub
-weakref: 'finalize' is in __all__ but not in stub
-weakref: 'getweakrefcount' is in __all__ but not in stub
-weakref: 'getweakrefs' is in __all__ but not in stub
 collections: 'MutableString' is in stub but is not defined at runtime
 collections.abc: 'Callable' is in __all__ but not in stub
 email: 'base64mime' is in __all__ but not in stub
@@ -267,6 +250,9 @@ plistlib: 'InvalidFileException' is in __all__ but not in stub
 plistlib: 'Plist' is in __all__ but not in stub
 pstats: 'cProfile' is in stub but is not defined at runtime
 readline: 'append_history_file' is in stub but is not defined at runtime
+select: 'devpoll' is in stub but is not defined at runtime
+select: 'epoll' is in stub but is not defined at runtime
+select: 'poll' is in stub but is not defined at runtime
 socket: 'AF_ASH' is in stub but is not defined at runtime
 socket: 'AF_ATMPVC' is in stub but is not defined at runtime
 socket: 'AF_ATMSVC' is in stub but is not defined at runtime
