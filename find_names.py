@@ -27,7 +27,7 @@ def handle_module(name):
             value = list(raw_value)
         elif raw_value is None or isinstance(raw_value, (six.integer_types, six.string_types, float)):
             typ = 'scalar'
-            value = raw_value
+            value = type(raw_value).__name__
         elif isinstance(raw_value, six.class_types):
             typ = 'class'
             value = {
